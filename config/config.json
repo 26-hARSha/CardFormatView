@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "card-toggle-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/cardToggle/CardToggleWebPart.js",
+          "manifest": "./src/webparts/cardToggle/CardToggleWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CardToggleWebPartStrings": "lib/webparts/cardToggle/loc/{locale}.js"
+  }
+}

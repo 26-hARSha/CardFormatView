@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "card-toggle-client-side-solution",
+    "id": "5c2ee810-a86a-4f39-a421-44aef548beea",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "CardToggle description"
+      },
+      "longDescription": {
+        "default": "CardToggle description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "card-toggle Feature",
+        "description": "The feature that activates elements of the card-toggle solution.",
+        "id": "89f7549f-5d41-44c1-b065-13deda618185",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/card-toggle.sppkg"
+  }
+}
